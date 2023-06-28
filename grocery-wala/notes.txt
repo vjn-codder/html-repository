@@ -1,0 +1,12 @@
+<input type ="checkbox"> used to create checkbox.
+used to multiple option multiple selection 
+<input type ="submit"
+<input type="submit" > it is used to create a submit button. when we click on submit button then data filled in t he form control is sent to the server side Page specified in  acton attribute then data is submitted on same page .
+
+<input type ="rest ">it is used to create a reset button. when we click on a reset button then all form fields are cleared.
+
+value attibute: value attribute is used with the input feild.
+it is used to specify the value/predefined value of the feild.
+
+placeholder attribute: mostly used with input tags. the text specified for placeholder is displyed as watermark text in the input field ,this placeholder text is automatically removed when you start typing in the input field.
+
