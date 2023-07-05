@@ -11,38 +11,59 @@
 	<hr>
 	<a href="home.html">Home</a> | <a href="about.html">About Us</a> | <a href="contact.html">Contact</a> | <a href="today'spricelist.html">Today's price list</a> | <a href="#">Register</a> | <a href="login.html">login</a>
 	<hr>
-	<form>
+	<form action="home.html">
 		<table>
 			<tr>
-				<td><label for="name">Name :</label>  </td>
+				<td tabindex="1"><label for="name">Name </label>  </td>
 				<td><input required placeholder="Enter your name" id="name" maxlength="20"type="text" name=""></td>
 			</tr>
 			<tr>
-				<td><label for="email">Email</label></td>
-				<td><input id="email"type="email"required placeholder="Enter your email id" name=""></td>
+				<td tabindex="2"><label for="email">Email</label></td>
+				<td><input id="email"type="email" required placeholder="Enter your email id" name=""></td>
 			</tr>
 			<tr>
-				<td><label for="password">Password :</label></td>
+				<td tabindex="3"><label for="password">Password </label></td>
 				<td><input  maxlength="8" id="password" type="password" required placeholder="Enter your password" name=""></td>
 			</tr>
 			<tr>
-				<td><label for="confirmed password">confirm password :</label></td>
-				<td><input maxlength="8" id="confirmed password" type="confirmed password" required placeholder="Enter your confirm password" name=""></td>
+				<td tabindex="4"><label for="confirmed password">confirm password </label></td>
+				<td><input size="20" maxlength="8" id="confirmed password" type="confirmed password" required placeholder="Enter your confirm password" name=""></td>
 			</tr>
 			<tr>
-				<td>Gender</td>
+				<td tabindex="6">Gender</td>
 				<td>
 					<label><input id="male" type="radio" name="gender">Male</label>
 					<label><input id="female" type="radio" name="gender">Female</label><br>
 				</td>
 			</tr>
-			<tr>	
-				<td colspan="2">recieve updates <label><input type="checkbox" > I accept all conditions</label></td>
+			<tr>
+				<td><label for="country">country</label>
+					<select id="country">
+						<option selected>India</option>
+						<option>Pakistan</option>
+						<option>Russia</option>
+						<option>USA</option>
+				</td>
+			</tr>
+			<tr><label for="profile">profile photo</label>
+				<input type="file" id="profile" name=""><br>
 			</tr>
 			<tr>
-			<td><label><input type="checkbox" > Save login details</label></td><br>
-			<td><input type="submit" name="submit" value="Submit"></td>
-			<td><input type="reset" name="reset" value="reset"></td>
+				<td><label for="country1">country</label>
+					<select id="country1" multiple>
+						<option selected>India</option>
+						<option>Pakistan</option>
+						<option>Russia</option>
+						<option>USA</option>
+				</td>
+			</tr>
+			<tr>	
+				<td tabindex="7" colspan="2">recieve updates <label><input type="checkbox" > I accept all conditions</label></td>
+			</tr>
+			<tr>
+			<td tabindex="8"><label><input type="checkbox" > Save login details</label></tr></td><br>
+			<tr><td tabindex="9"><input type="submit" name="submit" value="Submit">
+				<input type="reset" name="reset" value="reset"></td>
 			</tr>
 		</table>
 				already registered ? 
